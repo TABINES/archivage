@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/*--------------------*/
+/*------ Header ------*/
+/*--------------------*/
+
+/* navbar */
+
+.nav-header {
+    width: 100vw;
+    background-color: black;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbar > a {
+    color: white;
+    margin: 10px;
+}
+
+.navbar > a:hover {
+    color: #ff7900;
+}
+
+.navbar-text {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: .75;
+    letter-spacing: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.logo_orange {
+    width: 50px;
+    margin-right: 25px;
+}
+
+/* drop down menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropbtn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#dropbtn::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 8px;
+}
+
+#dropbtn:hover {
+    color:#ff7900;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px #cccc solid;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#logout {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover, #logout:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+::selection {
+    background: #ff7900;
+    color: #fff;
+}
+
+a {
+    color: #000;
+}
+
+a:hover{
+    color: #f16e00; 
+}

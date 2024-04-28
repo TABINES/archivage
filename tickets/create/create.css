@@ -1,0 +1,23 @@
+#drop_zone {
+    border: black dashed 2px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#add-file {
+    all: unset;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dragover {
+    background-color: #eee;
+}
+
+.hidden {
+    display: none;
+}

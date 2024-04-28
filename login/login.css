@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 450px;
+    margin: 50px auto;
+    padding: 5px 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 40px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.info {
+    background-color: #e9f7ff;
+    padding: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#info-title {
+    display: flex;
+    margin: 5px 0 10px 0;
+    align-items: center;
+}
+
+#info-title::before {
+    content: "\f05a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 8px;
+    color: #4bb4e6;
+    font-size: xx-large;
+}
+
+.error {
+    background-color: #fde6e6;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.error-content::before {
+    content: "\f06a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 8px;
+    color: red;
+}
+
+input[type="submit"] {
+    background-color: #ff7900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 10px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #f16e00;
+}

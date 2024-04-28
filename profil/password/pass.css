@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+form {
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    color: #666;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #ddd;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+#message {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Personnalisation des couleurs spécifiques */
+body {
+    color: #000;
+}
+
+input[type="submit"] {
+    background-color: #ff7900;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #f16e00;
+}
